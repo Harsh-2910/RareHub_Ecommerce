@@ -10,7 +10,7 @@ const Navbar = ({totalItems}) => {
     const location = useLocation();
 
     return (
-        <div style={{ position:"fixed" }}>
+        <div>
            <AppBar  className={classes.appBar} color='inherit'>
                <Toolbar>
                    <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
